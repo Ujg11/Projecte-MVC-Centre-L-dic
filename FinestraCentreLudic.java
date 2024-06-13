@@ -1439,8 +1439,7 @@ public class FinestraCentreLudic extends JFrame implements IVistaCentreLudic
 		this.consultaDataFiAE.setEditable(false);
 		linea4.add(this.consultaDataFiAE);
 		linea4.add(Box.createHorizontalStrut(20));
-		linea4.add(new JLabel("Hora d'inici:"));
-		linea4.add(Box.createHorizontalStrut(10));
+		linea4.add(Box.createHorizontalStrut(80));
 		panelConsultaAEsportiva.add(linea4);
 		
 		this.panelConsultaAEsportiva.add(Box.createVerticalStrut(10));
